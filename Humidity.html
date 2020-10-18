@@ -2,25 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Latitude Analysis
+  <title>Latitude Analysis - Humidity
     
   </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Menu
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/">Home</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/MaxTemp.html">Max temperature</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Humidity.html">Humidity</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html">Cloudiness</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html">Wind Speed</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/DataComparison.html">Data Comparison</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Data.html">Data</a>
-    </div>
-  </div>
 </head>
 <body>
   <!-- Our rows function in containers (grid created). -->
@@ -34,7 +20,6 @@
       <!-- One third of screen (4/12) -->
       <div class="col-md-12">
         <h1>Latitude Analysis Dashboard</h1>
-        <h2>Humidity</h2>
         <a href="https://rmaher314.github.io/Homework9_Web_Design/"></a>
       
         <!-- This is column 1 of 3 -->
@@ -43,26 +28,42 @@
      
     </div>
    
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/">Home</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/MaxTemp.html">Max Temperature</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Humidity</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html">Cloudiness</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html">Wind Speed</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/DataComparison.html">Data Comparison</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/Data.html">Data</a></li>
-        
-      </ol>
-    </nav>
-    <section>
+    <nav class="navbar custom-bg-light navbar-expand-lg navbar-light " >
+        <a class="navbar-brand" href="https://rmaher314.github.io/Homework9_Web_Design/">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+               
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/MaxTemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://rmaher314.github.io/Homework9_Web_Design/DataComparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://rmaher314.github.io/Homework9_Web_Design/Data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="col-md-12">
         <h2>Humidity</h2>
         <a target="_blank" href="Images/Fig2.png">
-         <img src="Images/Fig2.png" alt="Humidity">
+         <img src="Images/Fig2.png" class="rounded mx-auto d-block" alt="Humidity" >
        </a>   
         <p>The data points collected in this study related to humidity, showed showed a some coorelation between temperature and humidity.  In addition, it looks like the overall humidity levels were high for the timeframe that were studied.  </p>
         
-        </section>
+     </div>
    
    
     <div class ="row">
@@ -118,7 +119,7 @@
     </div>
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Latitiude Analysis Est. 2020.</span>
+        <span class="text-muted">Latitiude Analysis - Copyright 2020 - Produced by Regan Maher.</span>
       </div>
     </footer>
 
