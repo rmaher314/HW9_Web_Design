@@ -7,22 +7,7 @@
   </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Menu
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/">Home</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/MaxTemp.html">Max temperature</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Humidity.html">Humidity</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html">Cloudiness</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html">Wind Speed</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/DataComparison.html">Data Comparison</a>
-      <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Data.html">Data</a>
-    </div>
-  </div>
-</head>
-<body>
+  
   <!-- Our rows function in containers (grid created). -->
   <div class="container">
 
@@ -40,21 +25,50 @@
       </div>
     </div>
    
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Home</li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/MaxTemp.html">Max Temperature</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/Humidity.html">Humidity</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html">Cloudiness</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html">Wind Speed</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/DataComparison.html">Data Comparison</a></li>
-        <li class="breadcrumb-item"><a href="https://rmaher314.github.io/Homework9_Web_Design/Data.html">Data</a></li>
-        
-      </ol>
+    <nav class="navbar custom-bg-light navbar-expand-lg navbar-light " >
+      <a class="navbar-brand" href="https://rmaher314.github.io/Homework9_Web_Design/">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+             
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/MaxTemp.html">Max Temperature</a>
+              <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rmaher314.github.io/Homework9_Web_Design/DataComparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rmaher314.github.io/Homework9_Web_Design/Data.html">Data</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
+   <br>
+   <br> 
+   <section>
+    <div class="col-md-12">
+      <h2>Overview of Project</h2>
+      <p>This projects goal was to determine what weather factors are impacted cities based on their respective latitude.  On this site you will be able to review the different datasets graphed indivdually,
+        then look at all of the data sets in a comparison, and review the data that was used in this analysis.  
+      </p>
+      <!-- This is column 1 of 3 -->
    
-   
+    </div>
+
+   </section>
+   <br>
+   <br>
+   <br>
     <div class ="row">
       <div class="col-md-3">
         <div class="card" style="width: 18rem;">
@@ -83,7 +97,7 @@
             <div class="card-body">
               <h5 class="card-title">Cloudiness</h5>
               <p class="card-text">View how cloudiness is impacted by a cities latitude impacts.</p>
-              <a href="#" class="btn btn-primary">Click Here</a>
+              <a href="https://rmaher314.github.io/Homework9_Web_Design/Cloudiness.html" class="btn btn-primary">Click Here</a>
             </div></a>
             </div>
           </div>
@@ -93,7 +107,7 @@
               <div class="card-body">
                 <h5 class="card-title">Wind Speed</h5>
                 <p class="card-text">View how wind speed is impacted by a cities latitude impacts.</p>
-                <a href="#" class="btn btn-primary">Click Here</a>
+                <a href="https://rmaher314.github.io/Homework9_Web_Design/WindSpeed.html" class="btn btn-primary">Click Here</a>
               </div></a>
               </div>
             </div>
@@ -108,7 +122,7 @@
     </div>
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Latitiude Analysis Est. 2020.</span>
+        <span class="text-muted">Latitiude Analysis - Copyright 2020 - Produced by Regan Maher.</span>
       </div>
     </footer>
 
