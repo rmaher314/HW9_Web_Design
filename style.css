@@ -22,26 +22,10 @@ nav {
   align-content: center;
 }
 
-.purple {
-  color: purple;
-}
-
-#red {
-  color: red;
-}
-
-#big-font {
-  font-size: 40px;
-}
-
-#bold-font {
-  font-weight: bold;
-}
-
-.back-black {
-  background-color: #000;
-}
-
-.small-font {
-  font-size: 10px;
+h6 {
+  color: black;
+  text-align: center;
+  text-emphasis: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt
 }
